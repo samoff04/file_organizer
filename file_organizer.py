@@ -1,0 +1,27 @@
+import os
+import shutil
+
+print("====FILE ORGANIZER====")
+path=input("Enter folder path : ").strip()
+
+if not os.path.exists(path):
+    print("Invalid path. Please try again.")
+    exit()
+
+files=os.listdir(path)
+
+print(f"Found {len(files)} items")
+
+for file in files:
+    file_path=os.path.join(path,file)
+
+    if os.path.isdir(file_path):
+        continue
+    
+    extension=file.split(".")[-1]
+    folder_name=extension.upper()+"_Files"
+    folder_path=os.path.join(path,folder_name)
+    if not os.path.exists(folder_path):
+        os.mkdir(folder_path)
+    shutil.move(file_path,os.path.join(folder_path,file))
+print("Files Organized Successfully")
