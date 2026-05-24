@@ -16,8 +16,8 @@ A simple Python automation tool that organizes files into folders based on their
 - shutil
 
 ## Project Structure
-file-organizer/
-├── organizer.py
+file_organizer/
+├── file_organizer.py
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -25,11 +25,11 @@ file-organizer/
 ## How to Run
 
 ### 1. Clone repository
-git clone https://github.com/samoff04/file-organizer.git
-cd file-organizer
+git clone https://github.com/samoff04/file_organizer.git
+cd file_organizer
 
 ### 2. Run program
-python organizer.py
+python file_organizer.py
 
 ### 3. Enter folder path
 Provide the folder path when prompted and the files will be organized automatically.
