@@ -27,8 +27,8 @@ file_organizer/
 
 ### 1. Clone repository
 ```
-git clone https://github.com/samoff04/file_organizer.git
-cd file_organizer
+git clone https://github.com/samoff04/File-Organizer.git
+cd File-Organizer
 ```
 ### 2. Run program
 ```
