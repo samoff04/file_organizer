@@ -17,7 +17,7 @@ A simple Python automation tool that organizes files into folders based on their
 
 ## Project Structure
 ```
-file_organizer/
+File-Organizer/
 ├── file_organizer.py
 ├── README.md
 ├── requirements.txt
